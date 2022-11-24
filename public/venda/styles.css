@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 200px;
+    border: solid 2px #000;
+    text-align: start;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.container-cliente{
+    margin-left: 4vh;
+}
+
+.container-carro{
+    margin-left: 4vh;
+}
+
+
+#btn{
+    width: 100px;
+    height: 25px;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;    
+}
