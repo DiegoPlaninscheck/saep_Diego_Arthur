@@ -19,6 +19,7 @@ body{
     z-index: 4;
     position: relative;
     top: 300px;
+    cursor: pointer;
 }
 
 #two{
@@ -33,6 +34,7 @@ body{
     z-index: 5;
     top: 150px;
     left: 250px;
+    cursor: pointer;
 }
 
 #three{
@@ -46,6 +48,7 @@ body{
     z-index: 2;
     position: relative;
     margin-left: 80px;
+    cursor: pointer;
 }
 
 #four{
@@ -60,6 +63,7 @@ body{
     position: relative;
     bottom: 490px;
     left: 120px;
+    cursor: pointer;
 }
 
 #five{
@@ -74,6 +78,7 @@ body{
     position: relative;
     bottom: 600px;
     left: 250px;
+    cursor: pointer;
 }
 
 #six{
@@ -88,6 +93,7 @@ body{
     z-index: 2;
     bottom: 1330px;
     left: 820px;
+    cursor: pointer;
 }
 
 #seven{
@@ -102,6 +108,7 @@ body{
     z-index: 6;
     bottom: 1200px;
     left: 250px;
+    cursor: pointer;
 }
 
 #eight{
@@ -116,6 +123,7 @@ body{
     z-index: 7;
     bottom: 1350px;
     left: 150px;
+    cursor: pointer;
 }
 
 #nine{
@@ -130,6 +138,7 @@ body{
     z-index: 8;
     bottom: 1405px;
     left: 250px;
+    cursor: pointer;
 }
 
 #ten{
@@ -144,6 +153,7 @@ body{
     z-index: 0;
     bottom: 1550px;
     left: 600px;
+    cursor: pointer;
 }
 
 #eleven{
@@ -160,5 +170,3 @@ body{
     left: 230px;
     cursor: pointer;
 }
-
-
