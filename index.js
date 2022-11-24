@@ -41,7 +41,7 @@ app.get("/api/cliente", async (req, res) => {
 });
 
 app.post("/venda", async (req, res) => {
-  await db.cadastrarCliente(req.body);
+  await db.cadastrarVenda(req.body);
   res.redirect("/cadastrar_cliente");
 });
 

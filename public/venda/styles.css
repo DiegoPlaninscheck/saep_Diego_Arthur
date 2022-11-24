@@ -26,11 +26,11 @@ h2{
     text-align: center;
 }
 
-.container-cliente{
+#container-cliente{
     margin-left: 4vh;
 }
 
-.container-carro{
+#container-concessionaria{
     margin-left: 4vh;
 }
 
