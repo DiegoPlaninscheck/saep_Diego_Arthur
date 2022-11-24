@@ -21,6 +21,11 @@ export const mostrarClientes = () => {
   return novaConexao.query("select * from cliente");
 };
 
+export const mostrarDetalhes = (id) => {
+  return novaConexao.query(`select modelo, preco from automovel join alocacao
+  on automovel.idAutomovel = alocacao.idAutomovel and area = ${id}`);
+};
+
 export const cadastrarVenda = ({ quantidade, idAlocacao }) => {
   return novaConexao.query("update alocacao set quantidade = ? where id = ?", [
     quantidade - 1,

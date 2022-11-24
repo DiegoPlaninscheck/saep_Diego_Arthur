@@ -18,7 +18,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/area", (req, res) => {
-  res.sendFile(__dirname + "public/area.html");
+  res.sendFile(__dirname + "public/patio.html");
+});
+
+app.get("/detalheArea", (req, res) => {
+  res.sendFile(__dirname + "public/detalheArea.html");
 });
 
 app.get("/venda", (req, res) => {
@@ -38,6 +42,11 @@ app.get("/api/concessionaria", async (req, res) => {
 app.get("/api/cliente", async (req, res) => {
   const clientes = await db.mostrarClientes();
   res.json(clientes);
+});
+
+app.get("/api/detalhesArea/:id", async (req, res) => {
+  const detalhes = await db.mostrarDetalhes(req.params.id);
+  res.json(detalhes);
 });
 
 app.post("/venda", async (req, res) => {
