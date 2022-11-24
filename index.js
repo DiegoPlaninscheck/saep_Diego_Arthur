@@ -30,7 +30,7 @@ app.get("/venda", (req, res) => {
 });
 
 app.get("/api/area", async (req, res) => {
-  const automoveis = await db.mostrarAutomoveis();
+  const automoveis = await db.mostrarAreas();
   res.json(automoveis);
 });
 

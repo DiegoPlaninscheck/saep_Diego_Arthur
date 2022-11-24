@@ -9,8 +9,8 @@ const conexao = mysql.createConnection({
 
 const novaConexao = conexao.promise();
 
-export const mostrarAutomoveis = () => {
-  return novaConexao.query("select * from automovel");
+export const mostrarAreas = () => {
+  return novaConexao.query("select area from alocacao");
 };
 
 export const mostrarConcessionarias = () => {
